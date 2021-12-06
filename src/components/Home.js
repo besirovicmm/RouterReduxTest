@@ -18,6 +18,7 @@ const Home = () => {
         <Link to="/">Home</Link>
         <Link to="/entries">Entries</Link>
         <Link to="/entry">Entry</Link>
+        <Link to="/stranice">Stranice</Link>
         <button onClick={clickHandler}>Dugme</button>
         {entries && entries.map((entry) => <h1>{entry.Description}</h1>)}
       </main>
